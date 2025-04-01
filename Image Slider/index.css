@@ -1,0 +1,45 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rosybrown;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .slider-container {
+            position: relative;
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+        
+        .slider {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+        
+        .slider img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+        
+        .slider img.active {
+            display: block;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 15%;
+        }
+    
